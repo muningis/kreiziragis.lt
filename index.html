@@ -12,9 +12,20 @@
         .D\(f\){display:flex}
         .Jc\(c\){justify-content:center}
         .Ai\(c\){align-items:center}
+        .Bgc\(black\){background-color:#333}
+        .D\(n\){display: none}
     </style>
 </head>
-<body class="H(100%) W(100%) D(f) Jc(c) Ai(c) M(0)">
-    <img class="W(100%)" src="image.svg" alt="kreziragis">
+<body class="H(100%) W(100%) D(f) Jc(c) Ai(c) M(0) Bgc(black)">
+    <img class="W(100%)" src="white.svg" alt="white kreziragis">
+    <img class="W(100%) D(n)" src="purple.svg" alt="purple kreziragis">
+    <script>
+        var h = new Date().getHours();
+        if (h > 8 && h < 20) {
+            document.querySelector('[alt="white kreziragis"]').className += ' D(n)';
+            document.querySelector('[alt="purple kreziragis"]').className = document.querySelector('[alt="purple kreziragis"]').className.replace(/ D\(n\)/, '')
+            document.querySelector('body').className = document.querySelector('body').className.replace(/ Bgc\(black\)/, '')
+        }
+    </script>
 </body>
 </html>
