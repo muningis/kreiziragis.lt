@@ -14,7 +14,7 @@
   "scripts": {
     "build:css": "atomizer src/index.html -o src/atomic.css && postcss src/atomic.css -o src/atomic.css",
     "build:js": "parcel build src/index.html",
-    "build": "npm run-script build:css && npm run-script build:js"
+    "build:app": "npm run-script build:css && npm run-script build:js"
   },
   "repository": {
     "type": "git",
