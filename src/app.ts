@@ -2,6 +2,6 @@ import Glitcher from './glitch';
 
 new Glitcher(".js-glitch", {
     text: "KREIZIRΛGIS",
-    fontFamily: "cursive",
+    fontFamily: "Helvetica, Arial, sans-serif",
     fontWeight: 100
 });
