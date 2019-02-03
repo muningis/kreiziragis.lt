@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60fde0d2-eeef-439a-9e30-c326eee6156d/deploy-status)](https://app.netlify.com/sites/eloquent-goldstine-4abd73/deploys)

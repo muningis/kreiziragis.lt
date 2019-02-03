@@ -1,0 +1,29 @@
+{
+  "name": "kreiziragis.lt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "atomizer": "^3.5.2",
+    "cssnano": "^4.1.8",
+    "parcel-bundler": "^1.11.0",
+    "postcss-cli": "^6.1.1",
+    "typescript": "^3.3.1"
+  },
+  "scripts": {
+    "build:css": "atomizer src/index.html -o src/atomic.css && postcss src/atomic.css -o src/atomic.css",
+    "build:js": "parcel build src/index.html",
+    "build:app": "npm run-script build:css && npm run-script build:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokasMuningis/kreiziragis.lt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RokasMuningis/kreiziragis.lt/issues"
+  },
+  "homepage": "https://github.com/RokasMuningis/kreiziragis.lt#readme"
+}

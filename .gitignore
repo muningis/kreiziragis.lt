@@ -1,0 +1,5 @@
+node_modules/
+dist/
+src/atomic.css
+.cache
+.DS_Store
