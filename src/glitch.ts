@@ -238,4 +238,5 @@ class Glitcher {
     }
 }
 
+window['Glitcher'] = Glitcher;
 export default Glitcher;
